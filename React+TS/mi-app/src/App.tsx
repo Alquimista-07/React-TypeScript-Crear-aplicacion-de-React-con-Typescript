@@ -1,6 +1,8 @@
 import { Counter } from './components/Counter';
 import { Usuario } from './components/Usuario';
 
+import { TimerPadre } from './components/TimerPadre';
+
 function App() {
   return (
     // Recordemos que cuando colocamos <></> es un fragmento vacío ya que recordemos que react cumple con una regla la cual 
@@ -13,9 +15,13 @@ function App() {
       {/* Importamos el componente y recordemos que podemos cerrar la etiqueta solo con /> sin indicar el nombre del componente
           y admás recordemos que siempre se tiene que realizar el cierre de las etiquetas */
       }
+      { /* useState */ }
       <Counter/>
 
       <Usuario/>
+
+      { /* useEffect - useRef */ }
+      <TimerPadre/>
       
     </>
   );
