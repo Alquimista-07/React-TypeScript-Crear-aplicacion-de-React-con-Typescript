@@ -1,0 +1,81 @@
+------------------------------------------------------------------------------------------------
+					 	                   COMANDOS IMPORTANTES REACT
+------------------------------------------------------------------------------------------------
+El siguiente enlace nos dirige a la web oficial de React https://es.react.dev/
+------------------------------------------------------------------------------------------------
+
+NOTA: Hay que tener en cuenta que tenemos dos formas de crear proyectos en React una es usando create-react-app
+      y la segunda es usando Vite.
+
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando me permite crear una aplicación usando la herramiente create-react-app que es una 
+  herramienta para crear proyectos con react
+-----------------------------------------------------------------------------------------------------------
+
+	npx create-react-app nombre-app
+	
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando me permite levantar el servidor de desarrollo para ejecutar la aplicación creada
+  con create-react-app
+-----------------------------------------------------------------------------------------------------------
+
+	npm start
+
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando me permite construir la aplicación para producción creada con create-react-app
+-----------------------------------------------------------------------------------------------------------
+
+	npm run build
+
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando sirve para hacer testing de la palicación creada con create-react-app
+-----------------------------------------------------------------------------------------------------------
+
+	npm test
+
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando sirve para revelar toda la configuración cuando creamos el proyecto y permite 
+  acceder a ella y modificarla. Creada con create-react-app
+  
+  Este comando no es muy utilizado, pues una vez lo insertamos no podemos dar 
+  vuelta atrás. Es decir, una vez has definido el eject no puedes regresar al estado anterior. 
+-----------------------------------------------------------------------------------------------------------
+
+	npm run eject
+
+---------------------------------------------------------------------------------------------
+VITE JS
+Web Oficial: https://vitejs.dev/
+---------------------------------------------------------------------------------------------
+
+Vite es otra herramiente para crear proyectos con React pero también sirve para crear proyectos
+con otros frameworks como Vue, Angular, etc.
+
+En este caso cuando usamos vite no es necesario instalar nada ya que al instalar node podemos usar Vite.
+Otra cosa es que tenemos que tener en cuenta es que en Vite no es opcional usar la extensión .jsx a
+diferencia como sucedia cuando usamos create-react-app
+
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando me permite crear un proyecto con Vite
+-----------------------------------------------------------------------------------------------------------
+
+	npm create vite
+  
+  * Lo primero nos pide el nombre del proyecto a crear.
+  * Lo siguiene que va a pedir es con que framework vamos a crear el proyecto
+    que en este caso es React
+  * Luego va a pedir si queremos usar JavaScript o Typescript
+  * Luego de creado el proyecto lo siguiente sería instalar los node_modules o dependencias usando
+    el comando npm install
+
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando me permite arrancar o ejecutar la aplicación creada con Vite
+-----------------------------------------------------------------------------------------------------------
+
+  npm run dev
+
+-----------------------------------------------------------------------------------------------------------
+* El siguiente comando me permite construir la aplicación para producción creada con Vite
+-----------------------------------------------------------------------------------------------------------
+
+	npm run build
