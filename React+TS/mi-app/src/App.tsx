@@ -1,25 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // Recordemos que cuando colocamos <></> es un fragmento vacío ya que recordemos que react cumple con una regla la cual 
+    // dice que siempre tiene que haber una etiqueta que contenga a otra y a su vez en JS dice que no voy a usar nada allí 
+    // y de esta forma podemos evitar la etiqueta.
+    <>
+      <h1>Hola Mundo!!!... - TS</h1>
+    </>
   );
 }
 
