@@ -15,7 +15,7 @@ export const TimerPadre = () => {
 
   return (
     <div className="mt-5">
-        <h3>Timer: UseEffect</h3>
+        <h3>Timer: useEffect - useRef</h3>
 
         <span>Milisegundos: { milisegundos }</span>
 
