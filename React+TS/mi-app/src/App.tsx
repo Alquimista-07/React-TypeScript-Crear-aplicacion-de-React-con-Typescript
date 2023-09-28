@@ -6,7 +6,7 @@ function App() {
     // dice que siempre tiene que haber una etiqueta que contenga a otra y a su vez en JS dice que no voy a usar nada allí 
     // y de esta forma podemos evitar la etiqueta.
     <>
-      <h1>Hola Mundo!!!... - TS</h1>
+      <h1>React + TypeScript</h1>
     </>
   );
 }
