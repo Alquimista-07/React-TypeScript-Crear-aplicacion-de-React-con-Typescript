@@ -1,5 +1,3 @@
-import { Fragment } from "react";
-
 function App() {
   return (
     // Recordemos que cuando colocamos <></> es un fragmento vacío ya que recordemos que react cumple con una regla la cual 
