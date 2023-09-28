@@ -18,7 +18,7 @@ NOTA: Hay que tener en cuenta que tenemos dos formas de crear proyectos en React
 * El siguiente comando permite crear la aplicación con TypeScript por defecto y no con JavaScript.
 -----------------------------------------------------------------------------------------------------------
 
-  npx create-react-app mi-app  --template typescript
+  npx create-react-app mi-app --template typescript
 	
 -----------------------------------------------------------------------------------------------------------
 * El siguiente comando me permite levantar el servidor de desarrollo para ejecutar la aplicación creada
