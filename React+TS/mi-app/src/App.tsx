@@ -3,6 +3,8 @@ import { Usuario } from './components/Usuario';
 
 import { TimerPadre } from './components/TimerPadre';
 import { ContadorReducer } from './components/ContadorReducer';
+import { Formulario } from './components/Formulario';
+import { Formulario2 } from './components/Formulario2';
 
 function App() {
   return (
@@ -26,7 +28,15 @@ function App() {
 
       {/* useReducer */}
       <ContadorReducer/>
-      
+
+      {/* Sin Usar y Usando Custom Hook */}
+      {/* Sin Custom Hook */}
+      <Formulario/>
+      <br />
+      {/* Con Custom Hook */}
+      <Formulario2/>
+      <br />
+
     </>
   );
 }
